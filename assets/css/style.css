@@ -29,7 +29,6 @@ body {
 
 .debug main {
     background-color: blueviolet;
-    height: 6000px;
 }
 
 .debug #strategic {
@@ -38,10 +37,13 @@ body {
 .debug #benefits {
     background-color: aqua;
 }
+.debug #cta {
+    background-color: aqua;
+}
 
 .debug footer {
     background-color: brown;
-    height: 100px;
+    height: 200px;
 }
 
 
