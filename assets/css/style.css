@@ -30,10 +30,10 @@ body {
 .debug main {
     background-color: blueviolet;
 }
-*/
+
 .debug #strategic {
     background-color: aqua;
-}
+}*/
 
 .debug #benefits {
     background-color: aqua;
@@ -75,7 +75,6 @@ ul {
 .img-100{
     max-width: 100%;
     padding-top:10%;
-    margin-bottom: -14%
 }
 
 .btn-rad {
@@ -100,6 +99,11 @@ ul {
     background-color: #0084FD;
 }
 
+.card{
+    padding: 10%;
+    border-radius: 1.5rem;
+}
+
 
 .col-2 {
     width: calc((100%/12)*2);
@@ -119,6 +123,12 @@ ul {
 
 .col-8 {
     width: calc((100%/12)*8);
+}
+
+.col-12 {
+    padding: 2rem 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem
 }
 
 
@@ -143,16 +153,10 @@ nav ul {
     display: none;
 }
 
-#download .col-12 {
-    padding: 2rem 2rem;
-    margin-left: -2rem;
-    margin-right: -2rem
-}
+
 
 #download .card {
-    padding: 10%;
     background-color: var(--resp-lighterup);
-    border-radius: 1.5rem;
 }
 
 #download .card h2 {
@@ -160,7 +164,13 @@ nav ul {
     color: var(--resp-lightup);
 }
 
-#download .card p {
+#download .img-100 {
+margin-bottom: -14%
+}
+
+
+
+.card p {
     padding-top: 10%;
     line-height: 200%;
     padding-bottom: 10%;
@@ -177,6 +187,33 @@ nav ul {
     color: #0084FD;
 }
 
+
+#strategic {
+    background-color:var(--resp-lightbottom);
+    color: white;
+    text-align: left;
+}
+
+#strategic .card h2 {
+    font-weight: 700;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.card-white{
+    padding: 10%;
+    background-color: white;
+    border-radius: 1.5rem;
+    color:black;
+    text-align: center;
+}
+
+.card-white a{
+    background-color: #9792E4;
+    font-size: larger;
+    padding: 1rem;
+    border-radius: 50%;
+}
 
 
 
