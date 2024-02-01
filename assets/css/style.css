@@ -1,67 +1,110 @@
 /*Colours*/
-:root{
-    --resp-lightup:#0084FD;
-    --resp-lighterup:#B5DDFF;
-    --resp-lightbottom:#9792E4;
-    --resp-claim:#FDC15F;
+:root {
+    --resp-lightup: #0084FD;
+    --resp-lighterup: #B5DDFF;
+    --resp-lightbottom: #9792E4;
+    --resp-claim: #FDC15F;
 }
 
 
 /*Reset CSS*/
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-
-/*Utilities*/
-.container_80{
-
 }
 
 
 
 
 /*Debug*/
-.debug header{
+.debug header {
     background-color: aqua;
     height: 40px;
 }
 
-.debug main{
+.debug main {
     background-color: blueviolet;
     height: 500px;
 }
 
-.debug footer{
+.debug footer {
     background-color: brown;
     height: 100px;
 }
 
 
 
-body{
-
-}
 
 /*Utilities*/
-.col-2{
-    width: calc((100%/12)*2) ;
+.container {
+    width: 88%;
+    margin: auto;
 }
 
-.col-3{
-    width: calc((100%/12)*3) ;
+.d-flex {
+    display: flex;
 }
 
-.col-4{
-    width: calc((100%/12)*4) ;
+ul{
+    list-style: none;
+    gap: 3px;
 }
 
-.col-6{
-    width: calc((100%/12)*6 ;
+.col-2 {
+    width: calc((100%/12)*2);
 }
 
-.col-8{
-    width: calc((100%/12)*8 ;
+.col-3 {
+    width: calc((100%/12)*3);
+}
+
+.col-4 {
+    width: calc((100%/12)*4);
+}
+
+.col-6 {
+    width: calc((100%/12)*6);
+}
+
+.col-8 {
+    width: calc((100%/12)*8);
+}
+
+
+/*Big things*/
+nav {
+    justify-content: space-between;
+}
+.menu-lg{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    
+}
+
+@media screen and (min-width:1200px) {
+    .menu{
+        display: none;
+    }
+    .menu-lg{
+        display: inline;
+    }
+    
 }
