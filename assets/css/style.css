@@ -114,10 +114,15 @@ nav {
     .col-sm-8 {
         width: calc((100%/12)*8);
     }
+    .col-sm-7{
+        width: calc((100%/12)*7);
+    }
     .col-sm-6{
         width: calc((100%/12)*6);
     }
-
+    .col-sm-5 {
+        width: calc((100%/12)*5);
+    }
     .col-sm-4 {
         width: calc((100%/12)*4);
     }
@@ -142,6 +147,9 @@ nav {
     }
     .col-lg-6 {
         width: calc((100%/12)*6);
+    }
+    .col-lg-8 {
+        width: calc((100%/12)*8);
     }
 }
 
