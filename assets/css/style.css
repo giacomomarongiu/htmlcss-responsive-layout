@@ -29,10 +29,13 @@ body {
 
 .debug main {
     background-color: blueviolet;
-    height: 4000px;
+    height: 6000px;
 }
 
 .debug #strategic {
+    background-color: aqua;
+}
+.debug #benefits {
     background-color: aqua;
 }
 
@@ -111,6 +114,9 @@ nav {
     .col-sm-8 {
         width: calc((100%/12)*8);
     }
+    .col-sm-6{
+        width: calc((100%/12)*6);
+    }
 
     .col-sm-4 {
         width: calc((100%/12)*4);
@@ -121,6 +127,9 @@ nav {
 }
 
 @media screen and (min-width:992px) {
+    .container {
+        width: 75%;
+    }
     .menu {
         display: none;
     }
@@ -128,12 +137,16 @@ nav {
     .menu-lg {
         display: inline;
     }
+    .col-lg-4 {
+        width: calc((100%/12)*4);
+    }
+    .col-lg-6 {
+        width: calc((100%/12)*6);
+    }
 }
 
 @media screen and (min-width:1200px) {
-    .container {
-        width: 75%;
-    }
+
 
     .col-lg-6 {
         width: calc((100%/12)*6);
