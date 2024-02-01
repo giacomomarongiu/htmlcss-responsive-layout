@@ -24,13 +24,13 @@ body {
 /*Debug*/
 /*  .debug header {  background-color: aqua;
     height: 40px;
-}*/
+}
 
 
 .debug main {
     background-color: blueviolet;
 }
-
+*/
 .debug #strategic {
     background-color: aqua;
 }
@@ -79,6 +79,19 @@ ul {
     font-weight: 600;
 }
 
+.btn-spread{
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #0084FD;
+}
+
 .col-2 {
     width: calc((100%/12)*2);
 }
@@ -118,11 +131,29 @@ nav ul{
 .menu-lg {
     display: none;
 }
-
-
-.card>* {
-    padding: 2rem 0;
+#download .col-12 {
+    padding-top: 2rem;
 }
+#download .card {
+    padding: 10%;
+    background-color: var(--resp-lighterup);
+    border-radius: 1.5rem;
+    text-align: left;
+}
+#download .card h2{
+    font-weight: 700;
+    color: var(--resp-lightup);
+}
+#download .card p{
+    padding-top:10%;
+    line-height: 200%;
+}
+#download .card p{
+    padding-top:10%;
+    padding-bottom:10%;
+}
+
+
 
 
 
