@@ -14,7 +14,10 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-size: large;
+    font-family: sans-serif;
+}
 
 
 /*Debug*/
@@ -25,7 +28,7 @@
 
 .debug main {
     background-color: blueviolet;
-    height: 500px;
+    height: 1500px;
 }
 
 .debug footer {
@@ -44,6 +47,9 @@
 
 .d-flex {
     display: flex;
+}
+.row{
+    flex-wrap: wrap;
 }
 
 ul{
@@ -81,6 +87,9 @@ nav {
 }
 
 
+.card> *{
+    padding: 2rem 0;
+}
 
 
 
@@ -92,19 +101,25 @@ nav {
 
 
 @media screen and (min-width:768px) {
-    
+    .col-sm-8{
+        width: calc((100%/12)*8);
+    }
+    .col-sm-4{
+        width: calc((100%/12)*4);
+    }
 }
 
 @media screen and (min-width:992px) {
-    
-}
-
-@media screen and (min-width:1200px) {
     .menu{
         display: none;
     }
     .menu-lg{
         display: inline;
     }
-    
+}
+
+@media screen and (min-width:1200px) {
+    .container{
+        width: 75%;
+    }
 }
