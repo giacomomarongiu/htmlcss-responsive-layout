@@ -34,9 +34,11 @@ body {
 .debug #strategic {
     background-color: aqua;
 }
+
 .debug #benefits {
     background-color: aqua;
 }
+
 .debug #cta {
     background-color: aqua;
 }
@@ -53,6 +55,7 @@ body {
 .container {
     width: 88%;
     margin: auto;
+    padding-bottom: 10%;
 }
 
 .d-flex {
@@ -61,6 +64,7 @@ body {
 
 .row {
     flex-wrap: wrap;
+    gap:5%
 }
 
 ul {
@@ -68,18 +72,22 @@ ul {
     gap: 25px;
     align-items: center;
 }
+.img-100{
+    max-width: 100%;
+    padding-top:10%;
+    margin-bottom: -14%
+}
 
-.btn-rad{
+.btn-rad {
     border: none;
     font-size: large;
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 2rem;
-    font-weight: 600;
 }
 
-.btn-spread{
+.btn-spread {
     padding: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -87,10 +95,11 @@ ul {
     word-spacing: 5px;
 }
 
-.btn-blue{
+.btn-blue {
     color: white;
     background-color: #0084FD;
 }
+
 
 .col-2 {
     width: calc((100%/12)*2);
@@ -114,43 +123,58 @@ ul {
 
 
 /*Big things*/
-header{
+header {
     background-color: #0084FD;
 }
+
 nav {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 0;
-    color:white;
+    color: white;
     font-size: larger;
 }
-nav ul{
+
+nav ul {
     padding-left: 2rem;
 }
 
 .menu-lg {
     display: none;
 }
+
 #download .col-12 {
-    padding-top: 2rem;
+    padding: 2rem 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem
 }
+
 #download .card {
     padding: 10%;
     background-color: var(--resp-lighterup);
     border-radius: 1.5rem;
-    text-align: left;
 }
-#download .card h2{
+
+#download .card h2 {
     font-weight: 700;
     color: var(--resp-lightup);
 }
-#download .card p{
-    padding-top:10%;
+
+#download .card p {
+    padding-top: 10%;
     line-height: 200%;
+    padding-bottom: 10%;
 }
-#download .card p{
-    padding-top:10%;
-    padding-bottom:10%;
+
+.card-left{
+    text-align: left;
+}
+
+#download .fa-card {
+    font-size: 250%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #0084FD;
 }
 
 
@@ -165,25 +189,31 @@ nav ul{
 
 
 @media screen and (min-width:768px) {
-    .container-sm{
+    .container-sm {
         width: 80%;
     }
+
     .col-sm-8 {
         width: calc((100%/12)*8);
     }
-    .col-sm-7{
+
+    .col-sm-7 {
         width: calc((100%/12)*7);
     }
-    .col-sm-6{
+
+    .col-sm-6 {
         width: calc((100%/12)*6);
     }
+
     .col-sm-5 {
         width: calc((100%/12)*5);
     }
+
     .col-sm-4 {
         width: calc((100%/12)*4);
     }
-    .profile{
+
+    .profile {
         display: flex;
     }
 }
@@ -192,9 +222,11 @@ nav ul{
     .container {
         width: 75%;
     }
-    .container-lg{
+
+    .container-lg {
         width: calc((100%/12)*4);
     }
+
     .menu {
         display: none;
     }
@@ -202,12 +234,15 @@ nav ul{
     .menu-lg {
         display: inline;
     }
+
     .col-lg-4 {
         width: calc((100%/12)*4);
     }
+
     .col-lg-6 {
         width: calc((100%/12)*6);
     }
+
     .col-lg-8 {
         width: calc((100%/12)*8);
     }
