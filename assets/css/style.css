@@ -113,6 +113,9 @@ nav {
 
 
 @media screen and (min-width:768px) {
+    .container-sm{
+        width: 80%;
+    }
     .col-sm-8 {
         width: calc((100%/12)*8);
     }
@@ -136,6 +139,9 @@ nav {
 @media screen and (min-width:992px) {
     .container {
         width: 75%;
+    }
+    .container-lg{
+        width: calc((100%/12)*4);
     }
     .menu {
         display: none;
