@@ -104,6 +104,18 @@ ul {
     border-radius: 1.5rem;
 }
 
+.card-white{
+    padding: 10%;
+    background-color: white;
+    border-radius: 1.5rem;
+    color:black;
+    text-align: center;
+}
+
+.profile{
+    border-radius: 50%;
+    object-fit: contain;
+}
 
 .col-2 {
     width: calc((100%/12)*2);
@@ -200,13 +212,6 @@ margin-bottom: -14%
     padding-top: 10%;
 }
 
-.card-white{
-    padding: 10%;
-    background-color: white;
-    border-radius: 1.5rem;
-    color:black;
-    text-align: center;
-}
 
 .card-white a{
     background-color: #9792E4;
@@ -214,6 +219,31 @@ margin-bottom: -14%
     padding: 1rem;
     border-radius: 50%;
 }
+
+
+.testim{
+    color:black;
+    padding-bottom: 5%;
+}
+#partners{
+    color:white;
+}
+#partners h2{
+    color: var(--resp-lightbottom)
+}
+
+#partners .card {
+    background-color: var(--resp-lightbottom);
+}
+
+#partners .card-white{
+    padding: 10%;
+    background-color: white;
+    border-radius: 1.5rem;
+    color:black;
+    text-align: center;
+}
+
 
 
 
