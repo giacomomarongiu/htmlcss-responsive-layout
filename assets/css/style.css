@@ -22,10 +22,10 @@ body {
 
 
 /*Debug*/
-.debug header {
-    background-color: aqua;
+/*  .debug header {  background-color: aqua;
     height: 40px;
-}
+}*/
+
 
 .debug main {
     background-color: blueviolet;
@@ -65,7 +65,18 @@ body {
 
 ul {
     list-style: none;
-    gap: 3px;
+    gap: 25px;
+    align-items: center;
+}
+
+.btn-rad{
+    border: none;
+    font-size: large;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
 }
 
 .col-2 {
@@ -90,8 +101,18 @@ ul {
 
 
 /*Big things*/
+header{
+    background-color: #0084FD;
+}
 nav {
     justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    color:white;
+    font-size: larger;
+}
+nav ul{
+    padding-left: 2rem;
 }
 
 .menu-lg {
