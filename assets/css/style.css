@@ -212,7 +212,7 @@ nav ul {
 }
 
 #download .img-100 {
-    margin-bottom: -14%
+    margin-bottom: -6%
 }
 
 .card-left {
@@ -327,9 +327,16 @@ nav ul {
     font-size: xx-large;
 }
 
-#benefits h3 {
+#benefits h2 {
+    color: white;
     font-weight: bolder;
 }
+
+#benefits .card h2 {
+    color: #9792E4;
+    font-weight: bolder;
+}
+
 
 #benefits .card {
     background-color: var(--resp-);
@@ -508,6 +515,10 @@ footer p {
         width: calc((100%/12)*4);
     }
 
+    #download .card-flex {
+        display: flex;
+    }
+
     .menu {
         display: none;
     }
@@ -530,6 +541,9 @@ footer p {
 
     #strategic .row {
         align-items: end;
+    }
+    #strategic img {
+        padding:0;
     }
 }
 
