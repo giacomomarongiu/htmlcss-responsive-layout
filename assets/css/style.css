@@ -55,8 +55,7 @@ body {
 /*Utilities*/
 .container {
     width: 88%;
-    margin: auto;
-    padding-bottom: 10%;
+    margin: auto
 }
 
 .d-flex {
@@ -121,7 +120,6 @@ ul {
     text-align: center;
 }
 
-
 .profile {
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -155,9 +153,10 @@ ul {
 }
 
 
+/*Index*/
+
 
 /*HEADER*/
-
 
 /*MAIN*/
 /*Download*/
@@ -165,9 +164,10 @@ ul {
 /*Partners*/
 /*Benefits*/
 /*about-us*/
-/*--working*/
+/*cta*/
 
 /*FOOTER*/
+
 /*MEDIA QUERY*/
 
 
@@ -194,8 +194,14 @@ nav ul {
     display: none;
 }
 
-/*Main*/
+
+
+/*Main*/ /*ID-Main-section combined with other selectors and Utilities*/
 /*Download*/
+#download {
+    padding-top: 5%;
+}
+
 #download .card {
     background-color: var(--resp-lighterup);
 }
@@ -239,7 +245,12 @@ nav ul {
 }
 
 #strategic .no-bg {
-    padding-bottom: 0;
+    padding: 0;
+    padding-top: 5%;
+}
+
+#strategic .card-white {
+    border-radius: 4.5rem;
 }
 
 #strategic .card-white p {
@@ -267,6 +278,7 @@ nav ul {
 
 #partners {
     color: white;
+
 }
 
 #partners h2 {
@@ -281,14 +293,17 @@ nav ul {
     font-weight: 500;
 }
 
-
-
 #partners .card-white {
     padding: 10%;
     background-color: white;
     border-radius: 1.5rem;
     color: black;
     text-align: center;
+    font-weight: bold;
+}
+
+#partners h4 {
+    letter-spacing: 5px;
 }
 
 
@@ -298,10 +313,10 @@ nav ul {
     background-color: var(--resp-lightbottom);
     color: white;
     padding-top: 10%;
+
 }
 
 #benefits h2 {
-    font-size: 4rem;
     padding-bottom: 5%;
 }
 
@@ -321,7 +336,6 @@ nav ul {
     color: black;
     font-weight: 400;
 }
-
 
 #benefits .card .btn-rad {
     background-color: var(--resp-lightbottom);
@@ -347,13 +361,13 @@ nav ul {
     font-size: medium;
     background-color: var(--resp-lightbottom);
     color: white;
-
 }
 
 #about-us .no-bg {
     padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
-
 
 #about-us img {
     position: relative;
@@ -366,6 +380,10 @@ nav ul {
     right: 90px;
     color: var(--resp-lightbottom);
 }
+
+
+
+/*cta*/
 
 #cta {
     background-color: var(--resp-lightbottom);
