@@ -33,11 +33,11 @@ body {
 
 .debug #strategic {
     background-color: aqua;
-}*/
+}
 
 .debug #benefits {
     background-color: aqua;
-}
+}*/
 
 .debug #cta {
     background-color: aqua;
@@ -64,7 +64,7 @@ body {
 
 .row {
     flex-wrap: wrap;
-    gap:5%
+    gap: 5%
 }
 
 ul {
@@ -72,9 +72,10 @@ ul {
     gap: 25px;
     align-items: center;
 }
-.img-100{
+
+.img-100 {
     max-width: 100%;
-    padding-top:10%;
+    padding-top: 10%;
 }
 
 .btn-rad {
@@ -99,20 +100,21 @@ ul {
     background-color: #0084FD;
 }
 
-.card{
+.card {
     padding: 10%;
     border-radius: 1.5rem;
 }
 
-.card-white{
+.card-white {
     padding: 10%;
     background-color: white;
     border-radius: 1.5rem;
-    color:black;
+    color: black;
     text-align: center;
 }
 
-.profile{
+
+.profile {
     border-radius: 50%;
     object-fit: contain;
 }
@@ -177,7 +179,7 @@ nav ul {
 }
 
 #download .img-100 {
-margin-bottom: -14%
+    margin-bottom: -14%
 }
 
 
@@ -188,7 +190,7 @@ margin-bottom: -14%
     padding-bottom: 10%;
 }
 
-.card-left{
+.card-left {
     text-align: left;
 }
 
@@ -201,7 +203,7 @@ margin-bottom: -14%
 
 
 #strategic {
-    background-color:var(--resp-lightbottom);
+    background-color: var(--resp-lightbottom);
     color: white;
     text-align: left;
 }
@@ -213,7 +215,7 @@ margin-bottom: -14%
 }
 
 
-.card-white a{
+.card-white a {
     background-color: #9792E4;
     font-size: larger;
     padding: 1rem;
@@ -221,14 +223,16 @@ margin-bottom: -14%
 }
 
 
-.testim{
-    color:black;
+.testim {
+    color: black;
     padding-bottom: 5%;
 }
-#partners{
-    color:white;
+
+#partners {
+    color: white;
 }
-#partners h2{
+
+#partners h2 {
     color: var(--resp-lightbottom)
 }
 
@@ -236,18 +240,58 @@ margin-bottom: -14%
     background-color: var(--resp-lightbottom);
 }
 
-#partners .card-white{
+#partners .card-white {
     padding: 10%;
     background-color: white;
     border-radius: 1.5rem;
-    color:black;
+    color: black;
     text-align: center;
 }
 
 
+#benefits {
+    background-color: var(--resp-lightbottom);
+    color: white;
+    padding-top: 5%;
+}
+
+#benefits .card {
+    background-color: var(--resp-);
+    color: var(--resp-lightbottom);
+    background-color: white;
+    text-align: left;
+}
+
+#benefits .card p{;
+    color: black;
+}
 
 
+#benefits .card .btn-rad{
+    background-color: var(--resp-lightbottom);
+    color: white;
+    font-weight: 700;
+}
 
+#about-us{
+    background-color: white;
+    text-align: left;
+}
+
+#about-us h2{
+    background-color: white;
+    color: var(--resp-lightbottom);
+}
+
+#about-us .btn-rad{
+    background-color: var(--resp-lightbottom);
+    color: white
+}
+
+#about-us img{
+    border-radius: 50%;
+    padding-top: 10%;
+}
 
 
 
@@ -258,6 +302,15 @@ margin-bottom: -14%
 @media screen and (min-width:768px) {
     .container-sm {
         width: 80%;
+    }
+    #partners .card-flex {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        gap: 5%;
+    }
+    .col-sm-9 {
+        width: calc((100%/12)*9);
     }
 
     .col-sm-8 {
@@ -278,6 +331,9 @@ margin-bottom: -14%
 
     .col-sm-4 {
         width: calc((100%/12)*4);
+    }
+    .col-sm-3 {
+        width: calc((100%/12)*3);
     }
 
     .profile {
